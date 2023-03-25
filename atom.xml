@@ -40,7 +40,30 @@
   </entry>
   
   <entry>
-    <title>Java学习2</title>
+    <title>TNT</title>
+    <link href="https://www.fomal.cc/posts/9608a818.html"/>
+    <id>https://www.fomal.cc/posts/9608a818.html</id>
+    <published>2023-03-22T10:19:03.000Z</published>
+    <updated>2023-03-22T14:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1>TNT</h1><h2 id="TNT的基本特性">TNT的基本特性</h2><h3 id="TNT的激活方式">TNT的激活方式</h3><ul><li>玩家使用打火石和火焰弹激活。</li><li>被着火的弹射物击中，这些弹射物会不受阻碍地穿过并激活TNT。</li><li>被红石信号激活。</li><li>被发射器射出。</li><li>被发射器中的打火石激活。</li><li>被火烧毁，TNT被烧毁时被激活而不是像其它方块那样直接消失。u</li></ul><p>当TNT上方式激活时会在80游戏刻（游戏流畅运行的4秒）后爆炸。</p><p>另外当TNT被爆炸破坏时会在10游戏刻（0.5秒）—30游戏刻后爆炸。</p><p>当TNT是由生物激活，那么造成的伤害会视为该生物造成的。</p><h3 id="激活的TNT实体">激活的TNT实体</h3><p>当TNT激活时会在方块的中心生成一个被激活的TNT实体，但TNT质心在底部的正中央，而TNT的爆炸发生在质心得1/16格上。</p><p>TNT激活时会得到一个0.2格每游戏刻的垂直速度和0.02格每刻水平方向速度。可以用方块和活塞挤压限制其动量，但TNT的碰撞箱不和其他实体产生碰撞。因此没有被任何的方块阻挡时，它将会在水平方向上移动0.166格；而当TNT没有方块支撑时会下落73.45格，若上侧有方块的下表面阻挡时会下落79.84格。</p><p>被激活的TNT可以被水和岩浆推动，但被激活的TNT在水和岩浆中爆炸不会摧毁任何方块，却会对生物造成伤害并且推动实体。当被激活的TNT在水中时在上放放沙子，沙子掉入水中，此时TNT爆心不在水里并会破坏周围方块。</p><p>被激活的TNT可以进入地传送门和末地折跃门但会直接穿过下界传送门方块，传送前后加载区块中存在的时间达到其爆炸前倒计时间时爆炸。（可以用来整蛊朋友QWQ)</p><h2 id="TNT的爆炸">TNT的爆炸</h2><h3 id="爆炸对方块的影响">爆炸对方块的影响</h3><p>不同类型爆炸的爆炸范围</p><table><thead><tr><th>类型</th><th>范围</th></tr></thead><tbody><tr><td>TNT</td><td>4</td></tr><tr><td>苦力怕</td><td>3</td></tr><tr><td>高压苦力怕</td><td>6</td></tr><tr><td>末影水晶</td><td>6</td></tr><tr><td>TNT矿车</td><td>4~11.5</td></tr></tbody></table><p>TNT矿车造成的爆炸的爆炸范围基础为4，并增加0到1.5倍威力增加量之间的一个随机值，随机范围上限最高不超过7.5。如果TNT矿车是被激活铁轨或伤害触发的，那么威力增加量是TNT矿车的米每秒垂直速度；如果TNT矿车是被着火的箭引爆的，威力增加量是箭的米每秒速度；如果TNT矿车是摔落而爆炸的，那么威力增加量是摔落距离的十分之一。</p><p>当TNT爆炸时会在爆炸中心生成1352条射线。(16^3正方体表面一共有1352格，从爆炸中心到每一格都产生一条射线）</p><p>射线能量=爆炸范围×(0.7~1.3)。</p><p>而射线在每经过一格时会减少0.3的能量；当射线碰到进行计算：射线能量－(0.3+抗爆系数)，方块会吸收射线能量，当穿过这个方块后能量大于0时，这个方块将计划被删除（方块要在爆炸处理后才删除）。</p><p>可以用carpet extra可以更改TNT爆炸范围，黑曜石爆炸抗性为1200。(可以自己去试试QAQ)</p><h3 id="爆炸对实体的影响">爆炸对实体的影响</h3><p>TNT对实体的影响范围时爆炸范围×2+1。</p><p>当部分爆炸射线被方块挡住时，会减少爆炸推力。</p><p>推力大小取决于实体底部中心到爆源的距离。</p><p>抗爆性会减少推力，实体收到的伤害和推力有关。</p><p>由于Minecraft的时间不是连续的而是被划分为一个个游戏刻，因此爆炸推动实体时运动轨迹并不是一条直线，而是先沿y轴运动，再沿着x轴运动，最后沿着z轴运动（每游戏刻运行一次）</p><h1>TNT复制</h1>]]></content>
+    
+    
+    <summary type="html">MC中TNT特性</summary>
+    
+    
+    
+    <category term="学习" scheme="https://www.fomal.cc/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="外挂标签" scheme="https://www.fomal.cc/tags/%E5%A4%96%E6%8C%82%E6%A0%87%E7%AD%BE/"/>
+    
+    <category term="MC" scheme="https://www.fomal.cc/tags/MC/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java学习1</title>
     <link href="https://www.fomal.cc/posts/f7ede91d.html"/>
     <id>https://www.fomal.cc/posts/f7ede91d.html</id>
     <published>2023-03-09T10:19:03.000Z</published>
